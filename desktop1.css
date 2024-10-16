@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.options a{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.options p{
+    color: black;
+}
+
+.desktop1 p{
+    color: #4384D1;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+    margin-top: 0px;
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+
+.name{
+    margin-top: 280px;
+    margin-bottom: 5px;
+    font-size: 45px;
+}
+
+.bio{
+    float: left;           
+    margin-right: 15px;     
+    width: 700px;           
+    height: auto;
+    align-items: end;  
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 380px;
+    margin-top: 20px;
+}
+
+.buttons a{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12;
+}
+
+.buttons p{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+
+.gitHub-botton {
+    font-size: 24px;
+    background-color: #4384D1;
+    color: white;
+    width: 27%; 
+    height: 52px;
+    margin-right: 20px;
+    border-radius: 4px;
+    padding-left: 20px;
+    border-width: -1px;
+    border-style: solid;
+    border-color: #4384D1;
+}
+
+.gitHub-botton img{
+    padding-bottom: 10px;
+    height: 80%;
+    padding-left: 20px;
+}
+
+.gitHub-botton p{
+    color: white;
+    border-color:#4384D1;
+}
+
+.linkedin-botton{
+    font-size: 24px;
+    background-color: white;
+    width: 27%; 
+    height: 52px;
+    border-radius: 4px;
+    padding-left: 20px;
+    border-width: -1px;
+    border-style: solid;
+    border-color: #4384D1;
+}
+
+
+
+.linkedin-botton img{
+    padding-bottom: 10px;
+    height: 80%;
+    padding-left: 20px;
+}
+.linkedin-botton p{
+    color: #4384D1;
+    text-decoration: none;
+}
+
+
+.myImage{
+    height: 546px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 137px;
+    margin-right: 150px;
+}
+
+/*<div class="top-bar">
+            <a href="desktop1.html">
+                <p>Home</p>
+            </a>
+            <a href="about.html">
+                <p>About</p>
+            </a>
+            <a href="portafolio.html">
+                <p>Portafolio</p>
+            </a>
+            <a href="news.html">
+                <p>News</p>
+            </a>
+        </div>
+        </div class="main-content">*/
+
+
